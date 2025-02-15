@@ -16,7 +16,6 @@ public void myFractal(int x, int y, int size) {
     quad(x, y-10, x-30, y-20, x-30, y-30, x-10, y-25);
     quad(x, y+10, x-10, y+30, x, y+50, x+10, y+30);
   } else {
-    //fill(x + size, y, size-60);
     myFractal(x-size/2, y, size/2);
     myFractal(x+size/2, y, size/2);
     myFractal(x, y-size/2, size/2);
